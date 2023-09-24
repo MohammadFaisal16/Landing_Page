@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+#toppage{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2vw;
+}
+#maintop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0vw 3vw;
+    line-height: 0.5;
+    padding-bottom: 15vw;   
+}
+#lmain h1{
+    font-size: 21vw;
+    letter-spacing: -0.5vw;
+}
+#lmain h1>sup{
+    font-size: 6vw;
+    position: absolute;
+    top: 3vw;
+}
+#rmain .menu{
+    display: flex;
+    gap: 5vw;
+    margin: 3vw 4vw;
+}
+#rmain .menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.textmenu{
+    display: flex;
+    gap: 3vw;
+    font-size: 1.5vw;
+}
+.icons{
+    display: flex;
+    gap: 1vw;
+    font-size: 1.3vw;
+    
+}
+.icons i{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: transparent;
+    padding: 1vw;
+    -webkit-text-stroke: 0.5px white;
+}
+
+#rmain .toptext{
+    margin: 0vw 4vw;
+}
+#rmain .toptext h3{
+    font-size: 5vw;
+    line-height: 0.9;
+}
+
+#mainbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw 3vw;
+    margin-right: 12%;
+}
+#mainbottom .text p{
+    font-size: 1.8vw;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+#mainbottom .btns{
+    display: flex;
+    gap: 2vw;
+}
+ .button{
+    font-size: 1.2vw;
+    border-radius: 100px;
+    padding: 1.5vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.hline{
+    background-color: rgb(127, 127, 127);
+    height: 0.3px;
+    width: 90%;
+    margin: 0vw 5%;
+}
+.provide{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 7%;
+    margin-bottom: 4vw;
+}
+
+.solution{
+    width: 57%;
+    display: flex;
+    gap: 6vw;
+    margin: 3vw 0vw;
+}
+.solntext h4{
+    font-size: 1.7vw;
+    margin: 1vw 0vw;
+}
+.solntext p{
+    color: #909097;
+    font-size: 1.5vw;
+}
+.innerline{
+    height: 0.5px;
+    background-color: black;
+}
+.next{
+    display: flex;
+    margin: 4vw 0vw;
+}
+.bgimg{
+    width: 33.33%;
+    height: 120vh;
+    background-size: cover;
+}
+#fservices{
+    background-image: url("/Images/plane1.jpg");
+    opacity: 0.6;
+    background-position: center;
+}
+#ondemand{
+    background-image: url("/Images/1611761434-perseat2.jpg");
+    background-position: left;
+}
+#sflights{
+    background-image: url("/Images/plane2.jpg");
+    background-position: left;
+}
+#des-heading{
+    margin: 5vw 7%;
+    margin-bottom: 3vw;
+    font-size: 3.6vw;
+}
+#destination{
+    margin: 0vw 7%;
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 3vw;
+}
+#destination-images{
+    background-image: url("/Images/1620755532-barcelona.avif");
+    background-size: cover;
+    width: 50%;
+    height:70vh;
+    border-bottom-right-radius: 25%;
+}
+#destination-content{
+    display: flex;
+    gap: 5vw;
+}
+.sub-destination>div>h5{
+    font-size: 2vw;
+    font-weight: 900;
+    padding-bottom: 24vh;
+}
+.sub-destination>div>p{
+    font-size: 1.4vw;
+    margin-bottom: 6vh;
+    padding-bottom: 1.2vh;
+}
+.roundedline{
+    border-bottom: 2px solid rgba(184, 184, 184, 0.66);
+    border-right: 2px solid rgba(184, 184, 184, 0.66);
+    border-bottom-right-radius: 25px;
+}
+.flight-info{
+    display: flex;
+    background-color: #0f0f1c;
+}
+#manager-img{
+    background-image: url("/Images/1611581927-hyer-personal-flight-manager.avif");
+    background-size: cover;
+    height: 120vh;
+    width: 50%;
+    background-position: center;
+}
+#flight-manager{
+    background-color: #151623 !important;
+    color: white;
+    height: 120vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+#flight-manager h2{
+    font-size: 10vh;
+}
+#flight-manager p{
+    text-align: justify;
+    font-size: 3vh;
+    line-height: 1;
+    font-weight: 400;
+}
+#experience-head{
+    line-height: 0.8;
+    font-size: 6vw;
+    margin: 2vw 3vw;
+}
+#experience{
+    margin: 7vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 4.5vw;
+}
+.e-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10vw;
+    width: 150%;
+}
+.e-content p{
+    font-size: 1.3vw;
+}
+.e-content .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 14vw;
+    font-size: 1.3vw;
+}
+.e-services-sub{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-between;
+}
+.sub-content{
+    margin: 3vw 0vw;
+}
+.sub-content h4{
+    font-size: 2vw;
+    padding: 2vw 0vw;
+}
+.sub-content p{
+    font-size: 1.2vw;
+}
+.e-icons{
+    padding: 1vw;
+    border: 1px dashed black;
+    border-bottom-right-radius: 25%;
+}
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vw;
+    background-image: url("/Images/cloud.png");
+    background-size: cover;
+    background-position: left;
+}
+.booking h3{
+    font-size: 2vw;
+    color: black;
+}
+.booking a{
+    text-decoration: none;
+    color: black;
+    font-size: 9vw;
+    font-weight: 900;
+}
+.booking a:hover{
+    text-decoration:underline;
+}
+.footer{
+    background-color: #000d10;
+    color: white;
+    height: 130vh;
+    padding: 2vw;
+    display: flex;
+    gap: 22vw;
+}
+.social-media{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+.social-sub{
+    margin: 2vw 0;
+}
+.social-sub .f-icons{
+    display: flex;
+    gap: 2vw;
+}
+.social-sub h3{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-icon{
+    text-decoration: none;
+    font-size: 1.5vw;
+    display: flex;
+    height: 3.5vw;
+    width: 3.5vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:#000d10;
+    border-radius: 50%;
+}
+.copyright h3{
+    font-size: 2vw;
+    margin: 3vw 0;
+}
+.copyright p{
+    font-size: 1.23vw;
+}
+.sub-heading{
+    display: flex;
+    gap: 10vw;
+    margin: 2vw 0;
+    font-size: 1.7vw;
+}
+.sub-heading a,.policy a{
+    text-decoration: none;
+    color: white;
+}
+.myaccount{
+    margin-left: 3.5vw;
+}
+.policy{
+    display: flex;
+    gap: 10vw;
+    font-size: 2vw;
+    margin: 2vw 0;
+}
+.text-content{
+    font-size: 1.23vw;
+}
+.sub-heading p{
+    padding: 1vw 0;
+}
