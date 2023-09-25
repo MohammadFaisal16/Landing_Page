@@ -135,16 +135,16 @@ html , body{
     background-size: cover;
 }
 #fservices{
-    background-image: url("/Images/plane1.jpg");
+    background-image: url("Images/plane1.jpg");
     opacity: 0.6;
     background-position: center;
 }
 #ondemand{
-    background-image: url("/Images/1611761434-perseat2.jpg");
+    background-image: url("Images/1611761434-perseat2.jpg");
     background-position: left;
 }
 #sflights{
-    background-image: url("/Images/plane2.jpg");
+    background-image: url("Images/plane2.jpg");
     background-position: left;
 }
 #des-heading{
@@ -159,7 +159,7 @@ html , body{
     margin-bottom: 3vw;
 }
 #destination-images{
-    background-image: url("/Images/1620755532-barcelona.avif");
+    background-image: url("Images/1620755532-barcelona.avif");
     background-size: cover;
     width: 50%;
     height:70vh;
@@ -189,7 +189,7 @@ html , body{
     background-color: #0f0f1c;
 }
 #manager-img{
-    background-image: url("/Images/1611581927-hyer-personal-flight-manager.avif");
+    background-image: url("Images/1611581927-hyer-personal-flight-manager.avif");
     background-size: cover;
     height: 120vh;
     width: 50%;
@@ -270,7 +270,7 @@ html , body{
     align-items: center;
     flex-direction: column;
     height: 25vw;
-    background-image: url("/Images/cloud.png");
+    background-image: url("Images/cloud.png");
     background-size: cover;
     background-position: left;
 }
